@@ -497,8 +497,8 @@ form select {
 
 /* Site Navigation */
 .site-header.home {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("https://ibb.co/ftmqfDP");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("https://ibb.co/ftmqfDP");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("https://i.ibb.co/XsB1V20/australia-buildings.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("https://i.ibb.co/XsB1V20/australia-buildings.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2375,8 +2375,8 @@ form select {
   display: block;
   padding: 80px 20px;
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/../assets/images/architecture-big-ben-bridge-london.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/../assets/images/architecture-big-ben-bridge-london.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://i.ibb.co/LnCtwKk/arc-de-triomphe-architecture-couple-2513384.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/LnCtwKk/arc-de-triomphe-architecture-couple-2513384.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
