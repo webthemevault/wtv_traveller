@@ -1,0 +1,145 @@
+input[type="text"].form-control,
+input[type="search"].form-control,
+input[type="url"].form-control,
+input[type="email"].form-control,
+textarea.form-control {
+    display: block;
+    width: 100%;
+    padding: 9px;
+    font-size: .85rem;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px 0 rgba($secondary-black-color, .2);
+    outline: 1px solid rgba($secondary-black-color, .2);
+}
+
+span.search-icon::after {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f002";
+    font-weight: 900;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+span.search-icon.display::after {
+    content: "\f00d" !important;
+}
+
+.main-search-form input {
+    float: left !important;
+    width: 85% !important;
+    border-right: none !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.main-search-form button {
+    float: right !important;
+    width: 15% !important;
+    cursor: pointer;
+    border: 1px solid $light-grey-color;
+    border-left: none !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    padding: 13px 0;
+    background: $main-white-color;
+}
+
+.site-header .main-search-form button {
+    float: right !important;
+    width: 15% !important;
+    cursor: pointer;
+    border: 1px solid $light-grey-color;
+    border-left: none !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    padding: 10px 0;
+    background: $main-white-color;
+}
+
+
+.main-search-form button .icon-search {
+    padding: 0;
+    font-size: 1.4rem;
+    border: none !important;
+}
+
+.site-header .main-search-form button .icon-search {
+    padding: 0;
+    font-size: 1.15rem !important;
+    border: none !important;
+}
+
+.main-search-form .form-control {
+    font-size: .8rem;
+}
+
+.main-search-form input[type="search"] {
+    border: 1px solid $light-grey-color;
+}
+
+.mobile-menu .main-search-form input[type="search"] {
+    float: none !important;
+    width: 100% !important;
+    border: 1px solid $light-grey-color !important;
+    border-radius: 2px !important;
+    margin: 0;
+}
+
+.mobile-menu .main-search-form button {
+    display: none;
+}
+
+.top-bar .main-search-form .search-btn {
+    border-radius: 0 !important;
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+    border-left: none;
+    width: 15% !important;
+    background: transparent !important;
+    cursor: pointer;
+    position: relative;
+    padding: 13px 0 !important;
+}
+
+.top-bar .main-search-form .icon-search {
+    text-align: center !important;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    font-size: .75rem;
+}
+
+textarea {
+    margin-top: 15px;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: .75rem;
+}
+
+.widget select {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+form select {
+    width: 100%;
+    display: block;
+    padding: 5px;
+}

@@ -1,0 +1,457 @@
+.site-content .front-content {
+    margin: 60px 0 40px 0;
+}
+
+.site-content .front-content .wrapper .section-container {
+    margin-bottom: 60px;
+}
+
+.front-content .section-header {
+    padding: 8px 0;
+    margin: 40px 0 20px 0;
+}
+
+.front-content .section-header .section-title {
+    padding: 8px 0;
+    margin: 0;
+    line-height: 1;
+    font-size: 1.8rem;
+}
+
+.front-content .section-header .section-subtitle {
+    padding: 0;
+}
+
+// SECTION CONTENTS
+// Popular
+.front-content .section-contents-popular {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.front-content .section-contents-popular .section-content .img-container {
+    position: relative;
+    border-radius: 3px;
+}
+
+.front-content .section-contents-popular .section-content .img-container img {
+    border-radius: 3px;
+}
+
+.front-content .section-contents-popular .section-content .img-container .img-text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 8px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.front-content .section-contents-popular .section-content .img-container .img-text-container .entry-title {
+    line-height: 1;
+}
+
+.front-content .section-contents-popular .section-content .img-container .img-text-container .entry-title a {
+    color: $secondary-white-color;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.front-content .section-contents-popular .section-content .img-container .img-text-container .entry-deals {
+    color: $secondary-white-color;
+    font-size: .75rem;
+}
+
+// Deals
+.front-content .section-contents-deals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.front-content .section-contents-deals .section-content {
+    transition: all .3s ease-in-out;
+}
+
+.front-content .section-contents-deals .section-content:hover {
+    box-shadow: 0 0 8px 2px $secondary-black-color;
+}
+
+.front-content .section-contents-deals .section-content .img-container {
+    display: block;
+    line-height: 0.1em;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.front-content .section-contents-deals .section-content .text-container {
+    padding: 0 8px 10px 8px;
+    border: 1px solid $light-grey-color-1;
+    border-top: none;
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px 0;
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price .price {
+    padding-right: 10px;
+    border-right: 1px solid $secondary-black-color;
+    font-size: 1rem;
+    font-weight: weight(bold);
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price .price .currency {
+    font-weight: weight(bold);
+    font-size: .75rem;
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price .price .price-text {
+    font-weight: normal;
+    font-size: .7rem;
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price .title {
+    padding-left: 10px;
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price .title h5 {
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price .title h5 a {
+    font-size: .78rem;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    color: $secondary-black-color;
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price .title h5 a:hover {
+    color: $secondary-color !important;
+}
+
+.front-content .section-contents-deals .section-content .text-container .title-price .title p {
+    font-size: .65rem;
+}
+
+.front-content .section-contents-deals .section-content .text-container .trip-schedule-rating {
+    padding: 10px 0;
+    border-top: 1px solid $secondary-black-color;
+    font-size: .7rem;
+}
+
+.front-content .section-contents-deals .section-content .text-container .trip-schedule-rating span {
+    margin-right: 5px;
+}
+
+// .front-content .section-contents-deals .section-content .text-container .trip-schedule-rating .rating {
+//     font-size: .65rem;
+// }
+
+.front-content .section-contents-deals .section-content .text-container .trip-schedule-rating .rating i {
+    font-size: .6rem;
+    color: $main-red-color;
+}
+
+.front-content .section-contents-deals .section-content .text-container .trip-description {
+    font-size: .8rem;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.front-content .section-contents-deals .section-content .text-container .read-more-btn {
+    font-size: .6rem !important;
+    background: $primary-color !important;
+    color: $secondary-white-color !important;
+    border: none !important;
+}
+
+// Action
+.front-content .section-contents-action {
+    display: block;
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/../assets/images/architecture-big-ben-bridge-london.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.front-content .section-contents-action .section-content {
+    width: 70%;
+    margin: auto;
+}
+
+.front-content .section-contents-action .section-content .section-content-header {
+    margin-bottom: 20px;
+}
+
+.front-content .section-contents-action .section-content .section-content-header .action-title {
+    padding: 10px 0;
+    color: $secondary-white-color;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.front-content .section-contents-action .section-content .section-content-header .action-subtitle {
+    padding: 5px 0;
+    color: $secondary-white-color;
+    font-size: 1.1rem;
+}
+
+.front-content .section-contents-action .section-content .section-content-form .subscription-form {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    column-gap: 8px;
+}
+
+// .front-content .section-contents-action .section-content .section-content-form .subscription-form input {
+//     padding: 15px 10px;
+// }
+
+.front-content .section-contents-action .section-content .section-content-form .subscription-form .subscription-btn {
+    background: $primary-color;
+    border: none;
+    color: $secondary-white-color;
+    font-size: .9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.front-content .section-contents-action .section-content .section-content-social {
+    margin-top: 50px;
+}
+
+.front-content .section-contents-action .section-content .section-content-social .social-title {
+    color: $secondary-white-color;
+    font-size: 1.4rem;
+    padding: 5px 0;
+}
+
+.front-content .section-contents-action .section-content .section-content-social .social-icons {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.front-content .section-contents-action .section-content .section-content-social .social-icons i {
+    color: $secondary-white-color;
+    font-size: 1.8rem;
+    height: 50px;
+    width: 50px;
+    border: 1px solid $secondary-white-color;
+    text-align: center;
+    padding: 10px;
+    margin-right: 8px;
+    transition: all .25s ease-in-out;
+}
+
+.front-content .section-contents-action .section-content .section-content-social .social-icons i:hover {
+    border-radius: 50%;
+}
+
+.front-content .section-contents-action .section-content .section-content-social .social-icons i.facebook:hover {
+    background: $secondary-white-color;
+    color: $facebook-color;
+}
+
+.front-content .section-contents-action .section-content .section-content-social .social-icons i.instagram:hover {
+    background: $secondary-white-color;
+    color: $instagram-color;
+}
+
+.front-content .section-contents-action .section-content .section-content-social .social-icons i.twitter:hover {
+    background: $secondary-white-color;
+    color: $twitter-color;
+}
+
+.front-content .section-contents-action .section-content .section-content-social .social-icons i.youtube:hover {
+    background: $secondary-white-color;
+    color: $youtube-color;
+}
+
+// About
+.section-container.about {
+    margin-top: 60px;
+}
+
+.front-content .section-contents-about {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.front-content .section-contents-about .section-content {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid $secondary-black-color;
+}
+
+.front-content .section-contents-about .section-content i {
+    font-size: 2.8rem;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: $secondary-white-color;
+    background: $secondary-black-color;
+}
+
+.front-content .section-contents-about .section-content .section-about-title {
+    font-size: 1.4rem;
+    padding: 8px 0;
+}
+
+.front-content .section-contents-about .section-content .section-about-subtitle {
+    font-size: .9rem;
+}
+
+// Blog
+.front-content .section-container-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.front-content .section-container-blog .text-container {
+    padding: 5px 8px;
+    border: 1px solid $secondary-white-color;
+    box-shadow: 0 0 3px 0 $light-grey-color-1;
+    border-top: none;
+}
+
+.front-content .section-container-blog .text-container .entry-meta span {
+    padding: 5px 0;
+    font-size: .7rem;
+    color: $secondary-black-color;
+}
+
+.front-content .section-container-blog .text-container .entry-meta span a {
+    font-size: .7rem;
+    color: $secondary-black-color;
+}
+
+.front-content .section-container-blog .text-container .entry-title {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.front-content .section-container-blog .text-container .entry-title a {
+    font-size: 1.2rem;
+}
+
+.front-content .section-container-blog .text-container .entry-summary {
+    padding: 5px 0;
+    margin: 0;
+    font-size: .85rem;
+}
+
+
+// MEDIA QUERIES
+@media(max-width: 1100px) {
+    .front-content .section-contents-deals {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media( max-width: 992px ) {
+    .front-content .section-contents-popular {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .front-content .section-contents-action .section-content {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .front-content .section-contents-about {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+// @media(max-width: 768px) {
+//     .front-content .section-container-blog {
+//         display: block;
+//     }
+
+//     .front-content .section-content {
+//         margin-bottom: 15px;
+//     }
+// }
+
+@media( max-width: 600px ) {
+    .front-content .section-contents-popular {
+        display: block;
+    }
+
+    .front-content .section-contents-popular .section-content {
+        margin-bottom: 15px;
+    }
+
+    .front-content .section-contents-deals {
+        display: block;
+    }
+
+    .front-content .section-contents-deals .section-content {
+        margin-bottom: 15px;
+    }
+
+    .front-content .section-contents-about .section-content .section-about-title {
+        font-size: .9rem;
+        line-height: 1;
+    }
+    
+    .front-content .section-contents-about .section-content .section-about-subtitle {
+        font-size: .75rem;
+        line-height: 1;
+    }
+
+    .front-content .section-contents-action .section-content .section-content-form .subscription-form {
+        display: block;
+        width: 100%;
+    }
+
+    .front-content .section-contents-action .section-content .section-content-form .subscription-form input {
+        margin-bottom: 10px;
+    }
+
+    .front-content .section-contents-action .section-content .section-content-form .subscription-form .subscription-btn {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .front-content .section-contents-action .section-content .section-content-social {
+        margin-top: 30px;
+    }
+
+    .front-content .section-contents-about {
+        display: block;
+    }
+
+    .front-content .section-contents-about .section-content {
+        margin-bottom: 15px;
+    }
+
+    .front-content .section-container-blog {
+        display: block;
+    }
+
+    .front-content .section-content {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+

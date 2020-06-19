@@ -1,0 +1,38 @@
+.site-footer {
+    margin: 0 !important;
+}
+
+.site-footer a {
+    color: $twitter-color !important;
+    font-size: .8rem;
+}
+
+.site-footer a:hover {
+    color: $secondary-white-color !important;
+}
+
+.site-footer ul, 
+.site-footer ol {
+    margin-left: 5px;
+}
+
+.site-footer li {
+    list-style: none;
+    color: $secondary-white-color !important;
+    font-size: .8rem;
+    border-bottom: 1px solid rgba( $light-grey-color, .1 ) !important;
+}
+
+.site-footer .copyright {
+    padding: 10px 0 !important;
+    margin: 0 !important;
+    background: $secondary-color;
+    border-top: 1px solid $body-light-color;
+    color: $secondary-white-color;
+}
+
+.site-footer .copyright p {
+    font-size: .8rem;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
