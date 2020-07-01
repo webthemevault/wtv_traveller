@@ -497,8 +497,8 @@ form select {
 
 /* Site Navigation */
 .site-header.home {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("https://i.ibb.co/XsB1V20/australia-buildings.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("https://i.ibb.co/XsB1V20/australia-buildings.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("https://i.ibb.co/tL5WrDv/polynesia.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("https://i.ibb.co/tL5WrDv/polynesia.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
